@@ -1,37 +1,41 @@
-.Buttons button{
-    border: rgb(124, 222, 225) dashed 13px;
-    margin: 0 auto;
-    width: 35%;
-    height: 35%;
-    display: block;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 2em;
-    font-family: sans-serif, Arial, Helvetica, ;
-    font-weight: bold;
-    background-color: rgb(247, 228, 228);
-    text-decoration: double;
-    
-}
 
-.Counter{
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    background-color: bisque;
-    
-}
-.Counter h2{
-    margin: 0% auto;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    
-    color: rgba(189, 65, 65, 0.847);
-}
-
-body{
-    background-color: rgb(248, 189, 214);
-}
+                .counter-btn {
+                    background-color: #fabf40;
+                    width: 130px;
+                    height: 130px;
+                    margin: auto;
+                    border-radius: 100px 100px 100px 100px;
+                    -moz-border-radius: 100px;
+                    -webkit-border-radius: 100px 100px 100px 100px;
+                    border: 0 solid #000;
+                    color: white;
+                    font-size: 24px;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            
+                .v-c {
+                    vertical-align: middle !important;
+                }
+            
+                .counter-btn:active {
+                    background-color: #001d3e;
+                    opacity: .8;
+                }
+            
+                .counter-text {
+                    font-size: 24px;
+                    vertical-align: middle !important;
+                }
+            
+                .clear-counter {
+                    padding: 1px;
+                    padding: 1px;
+                    position: absolute;
+                    right: 4px;
+                }
+           
